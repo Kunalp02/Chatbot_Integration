@@ -1,0 +1,20 @@
+1. Create an account on DataSh.io if you don't already have one.
+
+2. Install the DataSh CLI by running pip install datash in your command line.
+
+3. Log in to your DataSh account by running datash login in your command line and following the prompts.
+
+4. Create a new project on DataSh by running datash init and following the prompts.
+
+5. In your project's root directory, create a datash.yml file with the following content:
+
+{
+        "name": "chat",
+        "id": "7c8c2220-8cef-43e1-8d4c-70490361f3e7",
+        "project": "d015wwyq",
+        "runtime": "python3.9",
+        "endpoint": "https://8eupoy.deta.dev",
+        "region": "ap-south-1",
+        "visor": "disabled",
+        "http_auth": "disabled"
+}

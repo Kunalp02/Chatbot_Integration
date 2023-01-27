@@ -1,0 +1,47 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "How are you",
+                "is anyone there ?",
+                "Hello"
+            ],
+            "responses": [
+                "Hey",
+                "Hello, thanks for visiting",
+                "Hi there!, what can i do for you?",
+                "Hi there!, how can i help?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "goodbye"
+            ],
+            "responses": [
+                "see you later, thansk for visiting",
+                "Have a nice day!",
+                "Bye! Come back again soon."
+            ]
+        },
+        {
+            "tag": "order",
+            "patterns": [
+                "How can I make Orderr from website",
+                "How can I order supply from you website",
+                "How to order supply from your website"
+            ],
+            "responses": [
+                "ok this is the process ",
+                "you can follow this process",
+                "checkout the details."
+            ]
+        }
+    ]
+}
+
