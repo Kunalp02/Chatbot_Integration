@@ -12,8 +12,18 @@ from model import NeuralNet
 import numpy as np
 from torch.utils.data import Dataset, DataLoader
 import nltk
+from fastapi.middleware.cors import CORSMiddleware
+
 nltk.download('punkt')
 
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 
 app = FastAPI()
