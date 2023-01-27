@@ -11,6 +11,8 @@ import torch.nn as nn
 from model import NeuralNet
 import numpy as np
 from torch.utils.data import Dataset, DataLoader
+import nltk
+nltk.download('punkt')
 
 
 
